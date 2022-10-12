@@ -1,1 +1,338 @@
-hi
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photography</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    .btn{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-top:20px;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color:white;
+    color:black;
+    font-size: small;
+    border-radius: 10px;
+    cursor: pointer;}
+    .navigation{
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        list-style: none;
+        column-gap: 10px; 
+        font-size: 1.4rem;
+        font-family:'Baloo Tammudu 2', cursive;
+        font-weight: bold;
+        height:50%;
+        cursor: pointer;
+        
+
+    }
+    .navbar ul li a:hover{ background-color:rgb(242, 226, 226);}
+    .navbar ul li a{
+   color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+h3{ color: white;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       font-size: 3rem;
+font-family: 'Dancing Script', cursive;}
+
+    header::before{
+       background: url('images.jfif') no-repeat center center/cover; 
+        position: absolute;
+        content:"";
+        top: 0;
+        left: 0;
+        height: 250%;
+        width: 100%;
+        z-index: -1;
+        opacity: 1;
+    }
+    
+    #li{ 
+        text-align: center;
+        
+    }
+    h1{  color: white;
+        font-family:'Baloo Tammudu 2', cursive;
+       font-weight: 900;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       font-size: 4rem;
+    }
+    h2{
+        color: white;
+        font-family:'Baloo Tammudu 2', cursive;
+       font-weight: 900;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       font-size: 2.5rem;
+    }
+    p{
+        color: white;
+        font-family: 'Baloo Tammudu 2', cursive;
+        display:flex;
+        justify-content: center;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        font-weight:bolder;
+        font-size: 1.1rem;
+        padding: 3%;}
+        .two{
+        color: white;
+        font-family: 'Baloo Tammudu 2', cursive;
+        display:flex;
+        justify-content: left;
+        width: 65%;
+        text-align:left;
+        margin: auto;
+        font-weight:bolder;
+        font-size: 1.1rem;
+        padding: 11%;}
+        .Pra
+        {color:black;
+        font-family: 'Baloo Tammudu 2', cursive;
+        font-weight:bolder;
+        font-size: 1.1rem;
+    background-color: #717171;}
+        .navbar{
+    top: 0%;
+   display: flex;
+   align-items: center;
+   margin: auto;
+   justify-content: center;
+
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.mySlides fade ,img{
+    height:100%; 
+}.first{
+color: white;
+        font-family:'Baloo Tammudu 2', cursive;
+       font-weight: 900;
+       text-align: center;
+       display: flex;
+       justify-content: center;
+       font-size: 2.5rem;}
+       .img{
+        float: left;
+  width: 25%;
+  padding: 3px;
+  border-radius: 75px;
+       }
+       section{
+        height: 200%;
+        background-color: black;
+       }
+       .M{
+        color: black;
+        font-family:'Baloo Tammudu 2', cursive;
+       font-weight: 900;
+       text-align: center;
+       display: flex;
+       margin: auto;
+       justify-content: center;
+       background-color: #717171;
+       font-size: 2.5rem;}
+       footer{
+        margin: auto;
+        justify-content: center;
+        display: flex;
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+       </style>
+<body>
+    <header><nav class="navbar">
+        <ul class="navigation">
+            <li class="one"><a>Home</a></li>
+            <li class="one"><a>MySelf</a></li>
+            <li class="one"><a>MyPhotography</a></li>
+            <li class="one"><a>Contact Us</a></li>
+        </ul>
+    
+    </nav>
+        <h1>WELCOME TO MY WEBSITE</h1>
+        <h3>AM</h3>
+        <h2>ITS PHOTOGRAPHY</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quis quasi consequatur nam eos iste, nihil modi accusantium dicta quo quos harum minus ipsum nobis sequi aperiam adipisci nulla doloremque corrupti at ipsa molestiae tempore? Ipsum est repudiandae temporibus debitis sed nesciunt, ut doloremque!</p>
+        <!-- <button class="btn">Order Now</button>   -->
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img1 (2).jpeg" style="width:100%">
+      <div class="text">Caption one</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img1(3).jpeg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="pic2.jpeg" style="width:100%">
+        <div class="text">Caption three</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="pic3.jpeg" style="width:100%">
+        <div class="text">Caption four</div>
+      </div>
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img1 (1).jpeg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+   
+  </div><section>
+  <div class="first">MyIntroduction
+  </div>
+  <img class="img"src="mypic.jpeg" alt="" srcset="">
+    <p class="two">
+        HELLO! its me Abida mir.Student of Mehran University.Going to be a Computer System Engineer.I am from pakistan. photograpgy is my favourite hobby.
+         Photography is the art of capturing light with a camera, usually via a digital sensor or film, to create an image. With the right camera equipment, you can even photograph wavelengths of light invisible to the human eye, including UV, infrared, and radio.
+
+        The first permanent photograph was captured in 1826 (some sources say 1827) by Joseph Nicéphore Niépce in France. It shows the roof of a building lit by the sun.</p>
+</section>
+<div class="M">
+    ContactUS
+</div>
+<div class="Pra"><li>FacebookAccount:ishhaAli</li>
+    <li>InstagramAccount:Photogrphy</li>
+    <li>EmailAddress:Abidameermeer@gmail.com</li>
+    <li>ContactNumber:03332639802</li> </div>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.abidameermeer@gmail.com.MyPhotography.pk!All rights reserved!
+        </div>
+    </footer>
+</header>
+<script>let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex-1].style.display = "block";
+      setTimeout(showSlides, 2000); 
+    }</script>
+</body>
+</html>
